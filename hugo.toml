@@ -1,4 +1,16 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = '奔禾的博客'
 theme = 'ananke'
+[[menu.main]]
+  identifier = "about"
+  name = "关于我"
+  url = "/about-me/" 
+  weight = 1
+[[menu.main]]
+  identifier = "gaming"
+  name = "游戏攻略"  
+  url = "/gaming/"      
+  weight = 2          
+[params]
+recent_posts_number = 3
